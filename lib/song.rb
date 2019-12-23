@@ -42,7 +42,7 @@ class Song
   end 
   
   def self.alphabetical 
-    @@all.sort_by { |word| word.length }
+    @@all.sort_by { |word| name.length }
   end 
   
   
